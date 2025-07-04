@@ -1,0 +1,29 @@
+name: Java CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compile Java files
+        run: |
+          mkdir classes
+          find . -name "*.java" -print0 | xargs -0 javac -d classes
+
+      - name: CI Success
+        run: echo "Build completed successfully"
