@@ -1,5 +1,4 @@
-![CI](https://github.com/Srikantmahapatro0/BookMyShow/actions/workflows/ci.yml/badge.svg)
-
+[![Java CI](https://github.com/Srikantmahapatro0/bookmyshow-clone/actions/workflows/ci.yml/badge.svg)](https://github.com/Srikantmahapatro0/bookmyshow-clone/actions/workflows/ci.yml)
 # 🎟️ BookMyShow Clone – Backend (Spring Boot)
 
 A complete backend clone of BookMyShow built using **Java**, **Spring Boot**, and **JPA**. It supports user signup, show scheduling, seat selection, booking, and dynamic price calculation — all with proper entity relationships, validation, and service abstraction.
