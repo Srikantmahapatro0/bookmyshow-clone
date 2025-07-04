@@ -1,3 +1,4 @@
+![CI](https://github.com/Srikantmahapatro0/BookMyShow/actions/workflows/ci.yml/badge.svg)
 
 # 🎟️ BookMyShow Clone – Backend (Spring Boot)
 
