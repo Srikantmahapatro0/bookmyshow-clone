@@ -1,10 +1,10 @@
-package com.scaler.bookmyshow.controllers;
+package com.example.bookmyshow.controllers;
 
-import com.scaler.bookmyshow.dtos.IssueTicketRequestDto;
-import com.scaler.bookmyshow.dtos.IssueTicketResponseDto;
-import com.scaler.bookmyshow.dtos.ResponseStatus;
-import com.scaler.bookmyshow.models.Booking;
-import com.scaler.bookmyshow.services.BookingService;
+import com.example.bookmyshow.dtos.IssueTicketRequestDto;
+import com.example.bookmyshow.dtos.IssueTicketResponseDto;
+import com.example.bookmyshow.dtos.ResponseStatus;
+import com.example.bookmyshow.models.Booking;
+import com.example.bookmyshow.services.BookingService;
 import org.springframework.stereotype.Controller;
 
 @Controller

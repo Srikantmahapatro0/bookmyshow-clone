@@ -9,3 +9,4 @@ public interface BookingRepository extends JpaRepository<Booking, Long> {
 
     Booking save(Booking entity);
 }
+//
